@@ -1,0 +1,11 @@
+[package]
+name = "ffmpeg-test"
+version = "0.1.0"
+authors = ["Matt Rudder <matt@mattrudder.com>"]
+edition = "2018"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ffmpeg4-ffi = "0.3.8"
